@@ -1,0 +1,30 @@
+name: newsapp
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  news_api:
+    path: ./packages/news_api
+  news_repository:
+    path: ./packages/news_repository
+  flutter_bloc: ^8.1.6
+  flutter_shimmer: ^2.1.1
+  modal_bottom_sheet: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  
