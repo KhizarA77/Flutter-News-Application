@@ -3,6 +3,10 @@
 
 This is a Flutter application designed to fetch and display news articles dynamically. It follows a modular architecture using packages and utilizes the BLoC (Business Logic Component) pattern to manage state efficiently.
 
+## Demo
+
+The demo of the application running can be found [here](https://youtu.be/-RKzEBfd9RU)
+
 ## Project Structure
 
 The project is organized into a **main application** and two custom **packages**:
