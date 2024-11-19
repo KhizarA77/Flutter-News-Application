@@ -15,6 +15,7 @@ class NewsScreen extends StatelessWidget {
         } else if (state is NewsApiLoaded) {
           return ListView.builder(
             itemCount: state.news.newsItems.length,
+            padding: const EdgeInsets.all(15),
             itemBuilder: (context, index) {
               return CustomTile(newsItem: state.news.newsItems[index]);
             },

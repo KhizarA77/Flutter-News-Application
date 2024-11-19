@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: const Color.fromARGB(255, 238, 228, 238),
         appBar: AppBar(
           title: const Row(
             children: [
@@ -23,8 +24,8 @@ class MyApp extends StatelessWidget {
                   Text('Read Top News Today', style: TextStyle(color: Colors.black, fontSize: 12)),
                 ],
               ),
-              SizedBox(width: 210),
-              Icon(Icons.newspaper),
+              SizedBox(width: 200),
+              Image(image: AssetImage('assets/newspaper.png'), height: 50, width: 50),
             ],
           ),
         ),
