@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_repository/news_repository.dart';
 import 'package:newsapp/NewsScreen.dart';
-import 'package:newsapp/shimmer_tile.dart';
-
 void main() {
   runApp(MyApp());
 }
